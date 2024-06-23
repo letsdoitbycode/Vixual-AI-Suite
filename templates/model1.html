@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Description Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/model1.css') }}">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    
+</head>
+<body>
+    <nav>
+        <ul class="nav__links">
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="#">Features</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="header" class="header__container">
+        <div>
+            <h1>Image Description Generator</h1>
+            <p>Upload an image and generate a description for it using our AI-powered tool.</p>
+            <label class="upload-btn" for="image-upload">Choose Image</label>
+            <input type="file" id="image-upload" accept="image/*">
+            <button id="generate-btn">Generate Description</button>
+            <div id="image-preview"></div>
+            <div id="description-box"></div>
+        </div>
+    </header>
+
+    <section id="use-cases" class="section__container">
+        <h2>APPLICATIONS OF THE MODEL</h2>
+        <div class="usecases__grid">
+            <div class="usecase__card">
+                <h4>Accessibility</h4>
+                <p>Enhance accessibility by providing image descriptions for visually impaired users.</p>
+            </div>
+            <div class="usecase__card">
+                <h4>SEO</h4>
+                <p>Improve your website's SEO by adding descriptive alt text to images.</p>
+            </div>
+            <div class="usecase__card">
+                <h4>Content Creation</h4>
+                <p>Save time on content creation by automatically generating image descriptions.</p>
+            </div>
+            <div class="usecase__card">
+                <h4>Social Media</h4>
+                <p>Create engaging social media posts with detailed image descriptions.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+        
+
+    <footer class="section__container footer__container">
+        <div class="footer__col">
+          <p>
+            Join us in exploring the limitless possibilities of AI. Let's innovate and transform the future together.
+          </p>
+          
+  
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <hr/>
+          <p>
+            For more information, demos, or to discuss how our integrated AI solutions can benefit your business, please contact us at <strong>akshay.bhosale@mitaoe.ac.in</strong>. Our team of experts is ready to help you harness the power of AI to transform your workflows and enhance your user experience.
+          </p>
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter Your Email" aria-label="email" class="email-field">
+            <button type="submit" class="newsletter-btn">Subscribe Now</button>
+          </form>
+        </div>
+      </footer>
+      <div class="footer__bar">
+        Copyright © 2024 letsdoitbycode. All rights reserved.
+      </div>
+
+        <script src="{{ url_for('static', filename='js/model1.js') }}"></script>
+
+</body>
+</html>
