@@ -15,14 +15,14 @@ logging.set_verbosity_error()
 app = Flask(__name__)
 
 # Model 1
-model1 = genai.GenerativeModel('gemini-pro-vision')
+model1 = genai.GenerativeModel('gemini-1.5-flash')
 
 # Model 2
 model2 = BertForQuestionAnswering.from_pretrained("bert-large-uncased-whole-word-masking-finetuned-squad")
 tokenizer2 = BertTokenizer.from_pretrained("bert-large-uncased-whole-word-masking-finetuned-squad")
 
 # Model 3
-model3 = genai.GenerativeModel('gemini-pro-vision')
+model3 = genai.GenerativeModel('gemini-1.5-flash')
 bert_model3 = BertForQuestionAnswering.from_pretrained("bert-large-uncased-whole-word-masking-finetuned-squad")
 bert_tokenizer3 = BertTokenizer.from_pretrained("bert-large-uncased-whole-word-masking-finetuned-squad")
 
