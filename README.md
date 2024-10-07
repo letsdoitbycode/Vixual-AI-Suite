@@ -6,7 +6,7 @@
 
 Whether you're curious about how machines describe images, answer complex questions, or combine both for a seamless interaction, this is your chance to dive in. Don't let the opportunity slip away!
 
-👉 # https://letsdoitbycode-vixual-ai-suite.hf.space/ 👈
+# 👉 https://letsdoitbycode-vixual-ai-suite.hf.space/ 👈
 
 The future is just a click away. 🔮
 
