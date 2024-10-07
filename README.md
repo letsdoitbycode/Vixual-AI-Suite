@@ -2,9 +2,8 @@
 
 ﻿# https://letsdoitbycode-vixual-ai-suite.hf.space/
 
-﻿# Visual AI Suite
-
-﻿# Overview
+# Visual AI Suite
+Overview
 The Visual AI Suite is a comprehensive toolkit designed to deliver cutting-edge AI functionalities for processing and analyzing visual data combined with natural language tasks. The suite integrates three powerful models: Image Description, Question Answering, and Visual Question Answering. It provides an easy-to-use interface and is built for both research and application purposes, with a focus on improving interaction with images and text.
 
 Models in Visual AI Suite
@@ -29,7 +28,6 @@ Use Case: Ideal for applications requiring interactive, human-like responses to 
 Example:
 Input: An image of a cat sitting on a chair and the question "What is the color of the cat?"
 Output: "Black"
-
 How it Works
 Image Upload (for Image Description and VQA):
 
@@ -69,7 +67,6 @@ Question Answering: Transformer-based architecture (BERT, GPT) for processing te
 Visual Question Answering: A combination of CNN for image analysis and transformers for language processing.
 Frontend: Simple, responsive web interface allowing easy interaction for users.
 Backend: Flask-based server to handle requests, process inputs, and return outputs efficiently.
-
 Future Enhancements
 Multimodal Extensions: Expand capabilities to support video question answering.
 Model Training Interface: Allow users to train their own models or fine-tune existing models with custom datasets.
