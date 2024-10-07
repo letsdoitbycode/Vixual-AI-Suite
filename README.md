@@ -1,12 +1,14 @@
-﻿# Visxual-AI-Suite
+﻿# Vixual-AI-Suite
 
 ﻿# https://letsdoitbycode-vixual-ai-suite.hf.space/
 
 # Visual AI Suite
-Overview
+
+# Overview
 The Visual AI Suite is a comprehensive toolkit designed to deliver cutting-edge AI functionalities for processing and analyzing visual data combined with natural language tasks. The suite integrates three powerful models: Image Description, Question Answering, and Visual Question Answering. It provides an easy-to-use interface and is built for both research and application purposes, with a focus on improving interaction with images and text.
 
-Models in Visual AI Suite
+## Models in Visual AI Suite
+
 1. Image Description Model
 This model generates natural language descriptions for given images. By leveraging advanced deep learning techniques such as convolutional neural networks (CNNs) and sequence models like Long Short-Term Memory (LSTM), the model can analyze visual content and produce detailed captions that describe the objects and activities in the image.
 
@@ -14,6 +16,7 @@ Use Case: Automatically generate captions for user-uploaded images, making it us
 Example:
 Input: An image of a dog running in a park.
 Output: "A dog is running on the grass in a sunny park."
+
 2. Question Answering Model (Text-based)
 This model performs the task of answering questions based on textual input. It employs state-of-the-art natural language processing (NLP) techniques such as transformer-based models (e.g., BERT, GPT) to comprehend text and provide accurate answers to user queries.
 
@@ -21,6 +24,8 @@ Use Case: Applications like chatbots, virtual assistants, and automated customer
 Example:
 Input: "What is the capital of France?"
 Output: "Paris"
+
+
 3. Visual Question Answering (VQA) Model
 The Visual Question Answering (VQA) model combines image analysis with natural language understanding. Given an image and a related question, the model provides an answer by reasoning about both the visual content and the question. This is accomplished through a fusion of image feature extraction (via CNNs) and language understanding (via LSTM/transformer models).
 
