@@ -109,15 +109,19 @@ The **Visual Question Answering (VQA)** model combines image analysis with natur
 
 ---
 
-### DEMO OF APPLICATION 
+# DEMO OF APPLICATION 
+
+## MODEL 1 - IMAGE DESCRIPTION GENERATOR
 
 ![Screenshot 2024-11-01 171112](https://github.com/user-attachments/assets/7070f829-9d86-4b1a-b2af-e4639a9017a1)
 
 
+## MODEL 2 - PARAGRAPH BASED QUESTION - ANSWERING MODEL
 
 ![Screenshot (5)](https://github.com/user-attachments/assets/598991d2-3b33-4dfe-946a-902075cac58b)
 
 
+## MODEL 3 - VISUAL QUESTION ANSWERING MODEL
 
 ![Screenshot (6)](https://github.com/user-attachments/assets/5d5d3f21-eb99-4d12-abf8-3ec581f2db88)
 
