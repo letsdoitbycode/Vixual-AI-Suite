@@ -28,8 +28,11 @@ This model generates natural language descriptions for given images. By leveragi
 
 - **Use Case**: Automatically generate captions for user-uploaded images, making it useful in platforms like social media, digital content creation, and assistive technology for visually impaired users.
 - **Example**:
-  - **Input**: An image of a dog running in a park.
-  - **Output**: "A dog is running on the grass in a sunny park."
+ ![Screenshot 2025-03-28 233058](https://github.com/user-attachments/assets/efca8367-deb1-4656-bcf0-db9fa532ae69)
+
+- **The full description given by the model is as below**
+
+The image depicts a hooded figure, likely a hacker, seated at a desk in front of a computer screen.  The scene is dark and moody, lit primarily by the glow emanating from the computer screens and the holographic projection displayed on them. The overall color palette is dark, with blues, grays, and blacks dominating.  The lighting creates a dramatic effect, emphasizing the figure and the digital elements.  The central focus is a computer screen displaying a three-dimensional, wireframe model of a human body rendered in shades of bright blue.  This model is overlaid with lines of code, suggesting a connection between the human form and artificial intelligence (AI). The holographic human is highly detailed, with a delicate network of lines connecting its various parts, creating a futuristic, almost ethereal feel.  The overall effect evokes a sense of technological complexity and the interconnectedness of data points.  On the computer screens surrounding the central display are more lines of code and various AI-related symbols. The words "AI" are prominently displayed in a stylized font, further emphasizing the AI theme.  There are also various geometric shapes and icons that seem to represent algorithms and processes.  The hooded figure is positioned to the right of the central screen, only their hands and the side of their face visible.  They are wearing a dark, hooded sweatshirt, further enhancing the mysterious and possibly clandestine nature of their activity. Their hands are actively typing on the keyboard, indicating focused work. Their posture suggests concentration and engagement.  The figure's face is partially obscured by the shadows and hood, adding to the sense of anonymity.  The overall image suggests a theme of AI development, hacking, or possibly the ethical considerations of artificial intelligence.  The juxtaposition of the ethereal holographic human figure with the clandestine hacker creates tension and ambiguity, leaving the viewer to interpret the narrative. The image's style is highly stylized, using a mixture of realistic and digital elements to convey a sense of technological advancement and mystery.
 
 #### 2. Question Answering Model (Text-based)
 
@@ -37,8 +40,9 @@ This model performs the task of answering questions based on textual input. It e
 
 - **Use Case**: Applications like chatbots, virtual assistants, and automated customer service, where users can ask text-based questions and receive meaningful responses.
 - **Example**:
-  - **Input**: "What is the capital of France?"
-  - **Output**: "Paris"
+
+ ![NLP](https://github.com/user-attachments/assets/bd3bd736-993e-41c7-975b-7f64b2a151c4)
+
 
 #### 3. Visual Question Answering (VQA) Model
 
@@ -46,8 +50,7 @@ The **Visual Question Answering (VQA)** model combines image analysis with natur
 
 - **Use Case**: Ideal for applications requiring interactive, human-like responses to questions about visual content. Use cases include educational tools, AI-based personal assistants, and automated systems in e-commerce and healthcare.
 - **Example**:
-  - **Input**: An image of a cat sitting on a chair and the question "What is the color of the cat?"
-  - **Output**: "Black"
+![Screenshot (64)](https://github.com/user-attachments/assets/f3ecee37-c874-4dce-af7b-438359ac9b42)
 
 ---
 
